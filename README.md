@@ -1,4 +1,4 @@
-# trucker
+# Truck Driving Rewards App
 
 Group project made in 4910. (Not currently maintained/running)
 
