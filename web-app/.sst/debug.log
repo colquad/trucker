@@ -1,0 +1,21 @@
+2023-12-04T04:34:04.546Z  +1624ms [debug] Config loaded {"version":"2.35.0","cdkVersion":"2.101.1","constructsVersion":"10.2.69","config":{"name":"web-app","region":"us-east-1","stage":"igrin","ssmPrefix":"/sst/web-app/igrin/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":233,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1701664442934.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":147}},"bytes":329}}},"paths":{"config":"C:\\Users\\igrin\\OneDrive\\Desktop\\F23-Team21\\web-app\\sst.config.ts","root":"C:\\Users\\igrin\\OneDrive\\Desktop\\F23-Team21\\web-app","out":"C:\\Users\\igrin\\OneDrive\\Desktop\\F23-Team21\\web-app\\.sst","artifacts":"C:\\Users\\igrin\\OneDrive\\Desktop\\F23-Team21\\web-app\\.sst\\artifacts"}}
+2023-12-04T04:34:04.867Z   +321ms [debug] Using AWS profile 
+2023-12-04T04:34:04.902Z    +35ms [debug] Created AWS client IoTClient
+2023-12-04T04:34:04.902Z     +0ms [debug] Getting IoT endpoint
+2023-12-04T04:34:04.917Z    +15ms [debug] Synthesizing stacks...
+2023-12-04T04:34:04.924Z     +7ms [debug] Created AWS client STSClient
+2023-12-04T04:34:05.223Z   +299ms [debug] Using IoT endpoint: aeninwlshjja0-ats.iot.us-east-1.amazonaws.com
+2023-12-04T04:34:05.223Z     +0ms [debug] Initializing bootstrap context
+2023-12-04T04:34:05.224Z     +0ms [debug] Created AWS client CloudFormationClient
+2023-12-04T04:34:05.249Z    +26ms [debug] Using identity Account: 274815321855 User: AIDAT77CFA37UU5KVSDJ7
+2023-12-04T04:34:05.253Z     +4ms [debug] Generating types in C:\Users\igrin\OneDrive\Desktop\F23-Team21\web-app\.sst\types
+2023-12-04T04:34:05.372Z   +119ms [debug] Running 1 deferred tasks with concurrency: 15
+2023-12-04T04:34:05.720Z   +348ms [debug] Loaded bootstrap status
+2023-12-04T04:34:05.720Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-pgdypdx69bpg"}
+2023-12-04T04:34:05.721Z     +1ms [debug] Created AWS client S3Client
+2023-12-04T04:34:05.858Z   +137ms [debug] 
+2023-12-04T04:34:05.859Z     +1ms [debug] Loading v2 AWS SDK
+2023-12-04T04:34:05.859Z     +0ms [debug] Finished synthesizing
+2023-12-04T04:34:06.256Z   +397ms [debug] IoT connected
+2023-12-04T04:34:06.291Z    +35ms [debug] Created AWS client LambdaClient
+2023-12-04T04:34:06.744Z   +453ms [debug] Failed to assume arn:aws:iam::274815321855:role/igrin-web-app-Site-siteServerFunctionServiceRole832-7FJKRXnzPuDv. {"name":"AccessDenied","$fault":"client","$metadata":{"httpStatusCode":403,"requestId":"25bc2556-ae99-4178-9031-44993a38d1c5","attempts":1,"totalRetryDelay":0},"Type":"Sender","Code":"AccessDenied","message":"User: arn:aws:iam::274815321855:user/SST_DEV_TEAM21 is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::274815321855:role/igrin-web-app-Site-siteServerFunctionServiceRole832-7FJKRXnzPuDv"}
